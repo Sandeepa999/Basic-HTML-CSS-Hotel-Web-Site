@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HomePage</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+
+	 	body{
+	 		margin: 0;
+	 		font-family: Arial;
+	 		background-image: url(background1.jpg);
+	 	}
+		div.relative{
+				position: relative;
+				width: 100%;
+				height: 50px;
+				text-align: center;
+				background-color: rgb(227, 206, 152);
+				
+
+			}
+
+			
+
+			div.absolute{
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				width: 100%;
+				height: 30px;
+				background-color: rgb(122, 0, 0);
+				color: white;
+
+			}
+
+			li{
+				list-style-type: none;
+				display: inline;
+			}
+
+			a.covidlink{
+				text-decoration: none;
+				color: black;
+
+			}
+
+			span.a{
+			color: rgb(156, 118, 22);
+		}
+
+		span.t{
+			padding: 20px;
+			font-size: 10px;
+		}
+
+		ul{
+			background-color: rgba(0, 0, 0, 0.5);
+			padding: 30px;
+			text-align: center;
+			
+			
+
+		}
+
+		li{
+			float: none;
+			display: inline;
+			padding: 30px;
+			list-style-type: none;
+
+		}
+
+		a.nev{
+			text-decoration: none;
+			color: white;
+
+		}
+
+		img.main{
+			   position: absolute;
+               left: 0px;
+               top: 200px;
+               z-index: -1;
+
+             }
+
+        span.login{
+			float: right;
+			background-color: rgb(122, 0, 0);
+			color: white;
+			margin-right: 30px;
+			padding: 30px;
+			margin-top: 40px;
+			font-size: 20px;
+
+		}
+
+		a.login1{
+			text-decoration: none;
+			color: white;
+		}
+
+		h1{
+			text-align: center;
+			color: white;
+			margin-top: 140px;
+		}
+
+		p.heading1{
+			font-size: 70px;
+		}
+
+		div.y{
+			float: none;
+			background-color: rgb(227, 223, 213);
+		}
+
+		span.ub{
+			text-align: center;
+		}
+
+		li a:hover{
+			color: rgb(122, 0, 0);
+		}
+
+		h2.v{
+			text-align: center;
+			font-size: 30px;
+			color: rgb(181, 0, 0);
+		}
+
+		div.msg{
+			margin-left: 120px;
+		}
+
+		.container {
+  				position: relative;
+  				width: 20%;
+  				max-width: 300px;
+  				margin-left: 80px;
+  				
+
+  			}
+
+  		.overlay1 {
+  				position: absolute; 
+  				bottom: 5px; 
+  				background: rgba(50, 0, 20, 0.5); 
+  				width: 100%;
+  				transition: 0.5s;
+  				opacity:0;
+  				color: white;
+  				font-size: 20px;
+  				padding: 10px 0px 10px 0px;
+  				text-align: center;
+  				margin-left: 78px;
+			}
+
+       .container:hover .overlay1 {
+                opacity: 1;
+            }
+
+            .overlay2 {
+  				position: absolute; 
+  				bottom: 5px; 
+  				background: rgba(50, 0, 20, 0.5); 
+  				width: 100%;
+  				transition: 0.5s;
+  				opacity:0;
+  				color: white;
+  				font-size: 20px;
+  				padding: 10px 0px 10px 0px;
+  				text-align: center;
+  				margin-left: 419px;
+			}
+
+			.container:hover .overlay2 {
+                opacity: 1;
+            }
+
+             .overlay3 {
+  				position: absolute; 
+  				bottom: 5px; 
+  				background: rgba(50, 0, 20, 0.5); 
+  				width: 100%;
+  				transition: 0.5s;
+  				opacity:0;
+  				color: white;
+  				font-size: 20px;
+  				padding: 10px 0px 10px 0px;
+  				text-align: center;
+  				margin-left: 761px;
+			}
+
+			.container:hover .overlay3 {
+                opacity: 1;
+            }
+
+             .overlay4 {
+  				position: absolute; 
+  				bottom: 5px; 
+  				background: rgba(50, 0, 20, 0.5); 
+  				width: 100%;
+  				transition: 0.5s;
+  				opacity:0;
+  				color: white;
+  				font-size: 20px;
+  				padding: 10px 0px 10px 0px;
+  				text-align: center;
+  				margin-left: 1104px;
+			}
+
+			.container:hover .overlay4 {
+                opacity: 1;
+            }
+
+            .container1 {
+  				position: relative;
+  				width: 20%;
+  				max-width: 300px;
+  				margin-left: 60px;
+  			}
+
+             .overlay5 {
+  				position: absolute; 
+  				bottom: 5px; 
+  				background: rgba(50, 0, 20, 0.5); 
+  				width: 100%;
+  				transition: 0.5s;
+  				opacity:0;
+  				color: white;
+  				font-size: 20px;
+  				padding: 10px 0px 10px 0px;
+  				text-align: center;
+  				margin-left: 57px;
+			}
+
+			.container1:hover .overlay5 {
+                opacity: 1;
+            }
+
+             .overlay6 {
+  				position: absolute; 
+  				bottom: 5px; 
+  				background: rgba(50, 0, 20, 0.5); 
+  				width: 100%;
+  				transition: 0.5s;
+  				opacity:0;
+  				color: white;
+  				font-size: 20px;
+  				padding: 10px 0px 10px 0px;
+  				text-align: center;
+  				margin-left: 342px;
+			}
+
+			.container1:hover .overlay6 {
+                opacity: 1;
+            }
+
+            .overlay7 {
+  				position: absolute; 
+  				bottom: 5px; 
+  				background: rgba(50, 0, 20, 0.5); 
+  				width: 100%;
+  				transition: 0.5s;
+  				opacity:0;
+  				color: white;
+  				font-size: 20px;
+  				padding: 10px 0px 10px 0px;
+  				text-align: center;
+  				margin-left: 626px;
+			}
+
+			.container1:hover .overlay7 {
+                opacity: 1;
+            }
+
+            .overlay8 {
+  				position: absolute; 
+  				bottom: 5px; 
+  				background: rgba(50, 0, 20, 0.5); 
+  				width: 100%;
+  				transition: 0.5s;
+  				opacity:0;
+  				color: white;
+  				font-size: 20px;
+  				padding: 10px 0px 10px 0px;
+  				text-align: center;
+  				margin-left: 911px;
+			}
+
+			.container1:hover .overlay8 {
+                opacity: 1;
+            }
+
+
+
+
+             .overlay9 {
+  				position: absolute; 
+  				bottom: 5px; 
+  				background: rgba(50, 0, 20, 0.5); 
+  				width: 100%;
+  				transition: 0.5s;
+  				opacity:0;
+  				color: white;
+  				font-size: 20px;
+  				padding: 10px 0px 10px 0px;
+  				text-align: center;
+  				margin-left: 1198px;
+			}
+
+			.container1:hover .overlay9 {
+                opacity: 1;
+            }
+
+            div.bottom{
+            	float: none;
+            	background-color: rgba(0, 0, 0, 0.9);
+            	height: 100px;
+
+            	
+            }
+
+            span.icon{
+            	margin-left: 250px;
+            }
+
+            a.footer{
+            	text-decoration: none;
+            	color: white;
+            }
+
+            a.footer:hover{
+            	color: rgb(122, 0, 0);
+            }
+
+            a.book{
+            	position: absolute;
+            	padding: 20px 40px 20px 40px;
+            	background-color: rgb(122, 0, 0);
+            	text-decoration: none;
+            	color: white;
+            	margin-top: 330px;
+            	margin-left: 20px;
+
+            }
+
+            
+
+
+
+
+
+
+		
+
+	</style>
+</head>
+<body>
+	<div class="relative">
+		<b><span class="a">COVID-19 information</b></span> - <a class="covidlink" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19-how-is-it-transmitted">Learn More</a>
+
+		<div class="absolute">
+			<li><span class="t">UB Hotel, Colombo 14, Colombo, Sri Lanka</span></li>
+			<li><span class="t">info@ubhotel.com</span></li>
+			<li><span class="t">+94711234567</span></li>
+		</div>
+	</div>
+	<div class="y">
+		<img src="ub.png" alt="logo" width="230px" height="200px" style=" margin-left: 40%;">
+		
+	    <span class="login"><i class="fa fa-user-circle-o"></i>
+			<a class="login1" href="loging.html">Login</a></span>
+
+	</div>
+	<ul>
+
+			
+			<li class="z"><a class="nev" href="homepage.html"><b>Home</b></a></li>
+			<li class="z"><a class="nev" href="aboutus.html"><b>About Us</b></a></li>
+			<li class="z"><a class="nev" href="Gallery.html"><b>Gallery</b></a></li>
+			<li class="z"><a class="nev" href="book.html"><b>Reservation</b></a></li>
+			<li class="z"><a class="nev" href="contactus.html"><b>Contact Us</b></a></li>
+			
+		</ul>
+		<a class="book" href="book.html"><b>BOOK ONLINE</b></a></span>
+		<h1><span class="heading">Welcome to</span><p class="heading1"><b>UB HOTEL</b></p></h1>
+
+
+
+		<img class="main" src="main.jpg" width="100%" height="80%">
+
+		<br><br>
+
+		<h2 class="v">A Message From The General Manager</h2>
+		<div class="msg">
+		<p>It is my pleasure to welcome you to Atana Hotel.</p>
+		<p>Refined and artistic, the hotel offers guests the natural warmth of Arabic hospitality and comfortable stay amidst the architectural wonders of the city.</p>
+		<p>Situated within the heart of the new Dubai with 828 modern rooms and suites offering an extensive grand ballroom with modular possibilities, restaurants,
+		spa and wellness facilities and convenient business amenities, Atana Hotel offers a truly remarkable experience.</p>
+		<p>I want to extend my gratitude for your trust to Atana Hotel during your previous travels and we always look forward to seeing you in the future. We welcome guests
+		every day and do our best to make your stay at Atana Hotel always safe, especially these days, we want to reassure you that health and safety are our highest priority.</p>
+		<p>On behalf of the team, allow me to extend my sincere thanks for choosing our hotel as your home during your visit to Dubai.</p>
+		<p>We look forward to seeing you.</p>
+		<p><b>Reda Moukhtar</b></p>
+		<b>General Manager</b>
+	</div>
+
+	<div>
+		<p style="text-align: center; font-size: 40px; color: rgb(181, 0, 0);"><b>Our Rooms</b></p>
+		<span class="container">
+		<img src="king.jpg" >
+		<div class="overlay1">Standard King Room</div>
+	    </span>
+	    <span class="container">
+	    <img src="King2.webp">
+		<div class="overlay2">Standard Twin Room</div>
+	    </span>
+	    <span class="container">
+	    <img src="king3.jpg">
+		<div class="overlay3">Standard Tripal Room</div>
+	    </span>
+	    <span class="container">
+	    <img src="king4.webp">
+		<div class="overlay4">Standard Quad Room</div>
+	    </span>
+	</div>
+	<div>
+		<p style="text-align: center; font-size: 40px; color: rgb(181, 0, 0);"><b>Our Services</b></p>
+
+		<span class="container1">
+		<img src="sev1.jpg" >
+		<div class="overlay5">DOCTER ON CALL</div>
+	    </span>
+		<span class="container1">
+		<img src="sev2.jpg" >
+		<div class="overlay6">FREE WI-FI</div>
+	    </span>
+	    <span class="container1">
+		<img src="sev3.jpg" >
+		<div class="overlay7">ROOM SERVICE</div>
+	    </span>
+	     <span class="container1">
+		<img src="sev4.jpg" >
+		<div class="overlay8">KID CLUB</div>
+	    </span>
+	    <span class="container1">
+		<img src="sev5.jpg" >
+		<div class="overlay9">TRAVEL DESK</div>
+	    </span>
+	</div>
+
+	<div class="bottom">
+		<input type="text" name="sign" placeholder="Your email address" style="width: 300px; height: 30px; border-color: white; background-color: rgba(0, 0, 0, 0.9); margin-left: 20%; margin-top: 30px;  color: white;">
+		<input type="submit" name="submit" value="SIGN UP" style="padding: 9px 15px 9px 15px; text-align: center; background-color: rgb(122, 0, 0);  color: white; font-size: 13px; border: none; padding: 40px:">
+		<span class="icon" >
+		<i class="fa fa-facebook-square" style="font-size: 30px; color: white; padding: 30px;"></i>
+      	<i class="fa fa-google-plus-official" style="font-size: 30px; color: white; padding: 30px;"></i>
+      	<i class="fa fa-instagram" style="font-size: 30px; color: white; padding: 30px;"></i>
+      	<i class="fa fa-linkedin-square" style="font-size: 30px; color: white; padding: 30px;"></i>
+      	<i class="fa fa-twitter-square" style="font-size: 30px; color: white; padding: 30px;"></i>
+      	<i class="fa fa-youtube-play" style="font-size: 30px; color: white; padding: 30px;"></i>
+      	</span>
+	</div>
+	<table  width="100%" style="background-color: rgb(227, 206, 152); text-align: center; height: 150px;">
+		<tr>
+			<td><b>OUR GALLERIES</b><td><b>ABOUT</b><td><b>TERMS & CONDITIONS</b></td>
+		</tr>
+		<tr>
+			<td><a class="footer" href="#">Restaurants</a><td><a class="footer"  href="#">Location</a><td><a class="footer"  href="#">Privacy Terms & Conditions</a>
+		</tr>
+		<tr>
+			<td><a class="footer"  href="#">Attractions</a><td><a class="footer"  href="#">Contact Us</a><td><a class="footer"  href="#">Website Terms & Condition</a></td>
+		</tr>
+		<tr>
+			<td><a class="footer"  href="#">Events</a><td><td><a class="footer"  href="">Privacy Policy</a></td>
+		</tr>
+	</table>
+
+
+
+</body>
+</html>

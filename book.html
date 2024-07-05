@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Reservation</title>
+	<link rel="stylesheet" type="text/css" href="nev.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		img.mainpic{
+			position: absolute;
+			top: 170px;
+			z-index: -1;
+			height: 500px;
+			width: 100%;
+		}
+
+		tr{
+			padding: 10px;
+		}
+
+		div.footer1{
+
+            	margin-top: 1000px;
+            }
+
+	</style>
+</head>
+<body>
+	<div class="relative">
+		<b><span class="a">COVID-19 information</b></span> - <a class="covidlink" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19-how-is-it-transmitted">Learn More</a>
+
+		<div class="absolute">
+			<li><span class="t">UB Hotel, Colombo 14, Colombo, Sri Lanka</span></li>
+			<li><span class="t">info@ubhotel.com</span></li>
+			<li><span class="t">+94711234567</span></li>
+		</div>
+	</div>
+	<div class="y">
+		<img src="ub.png" alt="logo" width="230px" height="200px" style=" margin-left: 40%;">
+		
+	    <span class="login"><i class="fa fa-user-circle-o"></i>
+			<a class="login1" href="loging.html">Login</a></span>
+		
+	</div>
+	<ul>
+
+			
+			<li class="z"><a class="nev" href="homepage.html"><b>Home</b></a></li>
+			<li class="z"><a class="nev" href="aboutus.html"><b>About Us</b></a></li>
+			<li class="z"><a class="nev" href="Gallery.html"><b>Gallery</b></a></li>
+			<li class="z"><a class="nev" href="book.html"><b>Reservation</b></a></li>
+			<li class="z"><a class="nev" href="contactus.html"><b>Contact Us</b></a></li>	
+		</ul>
+		<img class="mainpic" src="background3.jpg" >
+
+		<br>
+
+		<h2 style="color: rgb(122, 0, 0); position: absolute; margin-top: 400px; margin-left: 42%;">BOOK YOUR STAY!</h2>
+
+		<table  style="position: absolute; margin-top: 470px; width: 20%;  margin-left: 38%; height: 500px; padding: 10px;">
+			<tr>
+				<td><b>Check in</b><td><input type="date" name="date" style="width: 200px; height: 40px; "></td>
+			</tr>
+			<tr>
+				<td><b>Check out</b><td><input type="date" name="date1" style="width: 200px; height: 40px; "></td>
+			</tr>
+			<tr>
+				<td><b>Phone</b><td><input type="tel" name="number" style="width: 200px; height: 40px; " placeholder="Phone">
+			</tr>
+			<tr>
+				<td><b>Adults</b><td>
+					<select style="width: 200px; height: 40px; ">
+						<option>Adults</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><b>Nationality</b><td>
+					<select style="width: 200px; height: 40px; ">>
+						<option>Nationality</option>
+						<option>Sri Lankan</option>
+						<option>Foreign</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="text" name="promr" placeholder="Promo code" style="width: 200px; height: 40px;"><td><input type="checkbox" name="tik">Flexible Date</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" name="check" value="CHECK  AVAILABILITY" style="width: 200px; height: 40px; margin-left: 70px; background-color: rgb(122, 0, 0); color: white; border: none;"></td>
+			</tr>
+		</table>
+
+		<div class="footer1">
+		<div class="bottom">
+		<input type="text" name="sign" placeholder="Your email address" style="width: 300px; height: 30px; border-color: white; background-color: rgba(0, 0, 0, 0.9); margin-left: 20%; margin-top: 30px;  color: white;">
+		<input type="submit" name="submit" value="SIGN UP" style="padding: 9px 15px 9px 15px; text-align: center; background-color: rgb(122, 0, 0);  color: white; font-size: 13px; border: none; padding: 40px:">
+		<span class="icon" >
+		<i class="fa fa-facebook-square" style="font-size: 30px; color: white; padding: 30px;"></i>
+      	<i class="fa fa-google-plus-official" style="font-size: 30px; color: white; padding: 30px;"></i>
+      	<i class="fa fa-instagram" style="font-size: 30px; color: white; padding: 30px;"></i>
+      	<i class="fa fa-linkedin-square" style="font-size: 30px; color: white; padding: 30px;"></i>
+      	<i class="fa fa-twitter-square" style="font-size: 30px; color: white; padding: 30px;"></i>
+      	<i class="fa fa-youtube-play" style="font-size: 30px; color: white; padding: 30px;"></i>
+      	</span>
+	</div>
+	<table  width="100%" style="background-color: rgb(227, 206, 152); text-align: center; height: 150px;">
+		<tr>
+			<td><b>OUR GALLERIES</b><td><b>ABOUT</b><td><b>TERMS & CONDITIONS</b></td>
+		</tr>
+		<tr>
+			<td><a class="footer" href="#">Restaurants</a><td><a class="footer"  href="#">Location</a><td><a class="footer"  href="#">Privacy Terms & Conditions</a>
+		</tr>
+		<tr>
+			<td><a class="footer"  href="#">Attractions</a><td><a class="footer"  href="#">Contact Us</a><td><a class="footer"  href="#">Website Terms & Condition</a></td>
+		</tr>
+		<tr>
+			<td><a class="footer"  href="#">Events</a><td><td><a class="footer"  href="">Privacy Policy</a></td>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>

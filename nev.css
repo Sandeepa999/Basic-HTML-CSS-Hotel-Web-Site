@@ -1,0 +1,129 @@
+	  body{
+	 		margin: 0;
+	 		font-family: Arial;
+	 		background-image: url(background1.jpg);
+	 	}
+
+	 	div.relative{
+				position: relative;
+				width: 100%;
+				height: 50px;
+				text-align: center;
+				background-color: rgb(227, 206, 152);
+			}
+
+			span.a{
+			color: rgb(156, 118, 22);
+		}
+
+		a.covidlink{
+				text-decoration: none;
+				color: black;
+
+			}
+
+
+			div.absolute{
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				width: 100%;
+				height: 30px;
+				background-color: rgb(122, 0, 0);
+				color: white;
+
+			}
+
+			span.t{
+			padding: 20px;
+			font-size: 10px;
+		}
+
+		div.y{
+			float: none;
+			background-color: rgb(227, 223, 213);
+		}
+
+		span.ub{
+			text-align: center;
+		}
+
+		span.login{
+			float: right;
+			background-color: rgb(122, 0, 0);
+			color: white;
+			margin-right: 30px;
+			padding: 30px;
+			margin-top: 40px;
+			font-size: 20px;
+
+		}
+
+		a.login1{
+			text-decoration: none;
+			color: white;
+		}
+
+		a.nev{
+			text-decoration: none;
+			color: white;
+		}
+
+		li{
+				list-style-type: none;
+				display: inline;
+			}
+
+		ul{
+			background-color: rgba(0, 0, 0, 0.5);
+			padding: 30px;
+			text-align: center;
+		}
+
+		li{
+			float: none;
+			display: inline;
+			padding: 30px;
+			list-style-type: none;
+
+		}
+
+		img.main{
+			   position: absolute;
+               left: 0px;
+               top: 130px;
+               z-index: -1;
+
+             }
+
+            li a:hover{
+			color: rgb(122, 0, 0);
+
+		}
+
+		div.bottom{
+            	float: none;
+            	background-color: rgba(0, 0, 0, 0.9);
+            	height: 100px;
+
+
+            	
+            }
+
+           span.icon{
+            	margin-left: 250px;
+            }
+
+            a.footer{
+            	text-decoration: none;
+            	color: white;
+            }
+
+            a.footer:hover{
+            	color: rgb(122, 0, 0);
+            }
+
+            div.footer1{
+
+            	margin-bottom: 0px;
+            }
